@@ -7,7 +7,7 @@ public = "public/"
 docs = "docs/"
 
 def main():
-    basepath = "/static-site"
+    basepath = "/static-site/"
     if len(sys.argv) > 1:
         basepath = sys.argv[1]
     setup_public_dir(docs)
